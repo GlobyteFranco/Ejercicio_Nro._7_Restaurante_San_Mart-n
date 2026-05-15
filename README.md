@@ -7,10 +7,10 @@ por panqueques (que es un plato) y dulce de leche que es un ingrediente básico.
 software debe mantener el costo de cada uno de los platos, y el costo está dado por la
 suma de los costos de los ingredientes (básicos o platos).
 
-Patron Estructural Elegido --> Composite
+# Patron Estructural Elegido: Composite
 
 
-# Cómo Implementarlo:
+# Cómo Implementarlo
 Asegúrate de que el modelo central de tu aplicación pueda representarse como una estructura de árbol. Intenta dividirlo en elementos simples y contenedores. Recuerda que los contenedores deben ser capaces de contener tanto elementos simples como otros contenedores.
 
 Declara la interfaz componente con una lista de métodos que tengan sentido para componentes simples y complejos.
